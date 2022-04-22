@@ -3,6 +3,7 @@ import {
     Navbar,
     Container,
 } from "react-bootstrap";
+import NavComponent from "./Nav";
 
 export default function NavbarComponent(this: unknown) {
 
@@ -20,7 +21,7 @@ export default function NavbarComponent(this: unknown) {
                     { logo }
                 </Navbar.Brand>
                 <Navbar.Collapse id="reponsive-navbar-nav">
-
+                    <NavComponent/>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
